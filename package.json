@@ -1,0 +1,35 @@
+{
+  "name": "raven-aws-lambda",
+  "version": "0.0.1",
+  "description": "Integrates raven with lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive tests/",
+    "lint": "eslint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armonge/raven-aws-lambda"
+  },
+  "keywords": [
+    "raven",
+    "alexa"
+  ],
+  "author": "Andres Reyes Monge <andresm@rain.agency>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/armonge/raven-aws-lambda"
+  },
+  "homepage": "https://github.com/armonge/raven-aws-lambda#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "raven": "^1.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-mocha": "^4.8.0",
+    "mocha": "^3.2.0"
+  }
+}
